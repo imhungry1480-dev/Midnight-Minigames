@@ -1,0 +1,15 @@
+
+default-icon: LEATHER_BOOTS
+require-all-checkpoints: true    
+actionbar-timer: true            
+course-lore:
+  - "<gray>Difficulty: <white>{difficulty}"
+  - "<gray>Checkpoints: <white>{checkpoints}"
+  - ""
+  - "<yellow>Click to play!"
+
+
+items:
+  - {slot: 0, material: LIGHT_WEIGHTED_PRESSURE_PLATE, name: "<yellow>Last Checkpoint <gray>(Right Click)", action: parkour_checkpoint}
+  - {slot: 1, material: REPEATER, name: "<red>Restart <gray>(Right Click)", action: parkour_reset}
+  - {slot: 8, material: RED_DYE, name: "<red>Leave Course <gray>(Right Click)", action: leave}

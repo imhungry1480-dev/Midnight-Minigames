@@ -1,0 +1,94 @@
+# Items given in the hotbar
+lobby-items:
+  compass:
+    enabled: true
+    slot: 4
+    material: CLOCK
+    name: "<gradient:#7b2ff7:#f107a3><bold>Minigames <gray>(Right Click)"
+    lore:
+      - "<gray>Right click to choose a game."
+  leave:
+    slot: 8
+    material: RED_DYE
+    name: "<red><bold>Leave Game <gray>(Right Click)"
+    lore:
+      - "<gray>Right click to return to the lobby."
+
+# Main Menu
+main-menu:
+  title: "<gradient:#7b2ff7:#f107a3><bold>Select a Minigame"
+  rows: 4
+  show-disabled-games: false
+  filler:
+    enabled: true
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+  disabled-item:
+    material: BARRIER
+    name: "<red>{game} <dark_gray>(disabled)"
+  items:
+    bedwars:
+      slot: 10
+      material: RED_BED
+      name: "<red><bold>BEDWARS"
+      lore: ["<gray>Protect your bed, destroy the others!", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a mode"]
+    skywars:
+      slot: 11
+      material: ENDER_EYE
+      name: "<aqua><bold>SKYWARS"
+      lore: ["<gray>Loot islands, fight in the sky.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a mode"]
+    spleef:
+      slot: 12
+      material: DIAMOND_SHOVEL
+      name: "<aqua><bold>SPLEEF"
+      lore: ["<gray>Dig the floor from under your enemies.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a mode"]
+    tntrun:
+      slot: 13
+      material: TNT
+      name: "<red><bold>TNT RUN"
+      lore: ["<gray>The floor vanishes as you run.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to play"]
+    bridge:
+      slot: 14
+      material: TERRACOTTA
+      name: "<gold><bold>THE BRIDGE"
+      lore: ["<gray>Cross the bridge and score goals.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a mode"]
+    ctf:
+      slot: 15
+      material: RED_BANNER
+      name: "<red><bold>CAPTURE THE FLAG"
+      lore: ["<gray>Steal the enemy flag.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a mode"]
+    dropper:
+      slot: 16
+      material: WATER_BUCKET
+      name: "<aqua><bold>DROPPER"
+      lore: ["<gray>Fall through the maps. Don't touch the walls!", "", "<white>Playing: <green>{players}", "", "<yellow>Click to play"]
+    duels:
+      slot: 20
+      material: DIAMOND_SWORD
+      name: "<gold><bold>DUELS"
+      lore: ["<gray>Pick a kit and fight.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a kit"]
+    1v1:
+      slot: 22
+      material: IRON_SWORD
+      name: "<green><bold>1V1"
+      lore: ["<gray>Quick random 1v1 matches.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to queue"]
+    parkour:
+      slot: 24
+      material: LEATHER_BOOTS
+      name: "<green><bold>PARKOUR"
+      lore: ["<gray>Race through courses for the best time.", "", "<white>Playing: <green>{players}", "", "<yellow>Click to choose a course"]
+# Mode menu
+
+mode-menu:
+  title: "{game} <dark_gray>» <gray>Select a mode"
+  rows: 3
+  filler:
+    enabled: true
+    material: GRAY_STAINED_GLASS_PANE
+    name: " "
+  back:
+    enabled: true
+    slot: 22
+    material: ARROW
+    name: "<red>Back"
+    lore: ["<gray>Return to the game list."]

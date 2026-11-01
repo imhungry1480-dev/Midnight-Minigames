@@ -1,0 +1,14 @@
+nodes:
+  play: midnight.play                  
+  play-game: "midnight.play.{game}"    
+  menu: midnight.menu                 
+  party: midnight.party           
+  spectate: midnight.spectate    
+  admin: midnight.admin               
+  admin-reload: midnight.admin.reload 
+  admin-arena: midnight.admin.arena    
+  admin-forcestart: midnight.admin.forcestart
+  admin-stop: midnight.admin.stop
+  admin-world: midnight.admin.world  
+  admin-build: midnight.admin.build   
+  admin-stats: midnight.admin.stats   
